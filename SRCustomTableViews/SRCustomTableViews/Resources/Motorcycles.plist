@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Sport</key>
+	<dict>
+		<key>CBR250R</key>
+		<dict>
+			<key>info</key>
+			<string>Do smart and fun fall into your equation for the ideal vehicle? If so, the 2012 CBR250R is the perfect bike for you. The CBR250R serves up everything first-time and long-time riders look for in a bike: Lightweight. Excellent fuel economy. Solid build quality. A user-friendly powerband. And a cool factor that can’t be beat.</string>
+			<key>engine</key>
+			<string>249</string>
+			<key>transmission</key>
+			<string>six speed</string>
+			<key>drive</key>
+			<string>chain</string>
+			<key>fuel capacity</key>
+			<string>3.4</string>
+			<key>mpg</key>
+			<string>77</string>
+			<key>weight</key>
+			<string>357</string>
+			<key>image</key>
+			<string>cbr250r.jpg</string>
+			<key>link</key>
+			<string>http://powersports.honda.com/2012/cbr250r.aspx</string>
+		</dict>
+		<key>CBR600RR</key>
+		<dict>
+			<key>info</key>
+			<string>Talk about a blast to ride: Honda’s awesome CBR600RR strikes a perfect balance between performance and handling in a middleweight package. The CBR600RR offers state-of-the-art technology in a package most riders find just about perfect. And to make a legendary bike even better, you can opt for one with Honda’s revolutionary Combined Anti-Lock Braking System (C-ABS), the first ever on a production supersport motorcycle. </string>
+			<key>engine</key>
+			<string>599</string>
+			<key>transmission</key>
+			<string>six speed</string>
+			<key>drive</key>
+			<string>chain</string>
+			<key>fuel capacity</key>
+			<string>4.8</string>
+			<key>mpg</key>
+			<string>40</string>
+			<key>weight</key>
+			<string>410</string>
+			<key>image</key>
+			<string>cbr600rr.jpg</string>
+			<key>link</key>
+			<string>http://powersports.honda.com/2012/cbr600rr.aspx</string>
+		</dict>
+		<key>CB100R</key>
+		<dict>
+			<key>info</key>
+			<string>Think of a fighter, standing in the ring. Boots, trunks, gloves—and plenty of muscle. That’s the Honda CB1000R, a machine that offers Superbike performance, a comfortable, do-it-all riding position, and sense of style that’s off the charts.</string>
+			<key>engine</key>
+			<string>998</string>
+			<key>transmission</key>
+			<string>six speed</string>
+			<key>drive</key>
+			<string>chain</string>
+			<key>fuel capacity</key>
+			<string>4.5</string>
+			<key>mpg</key>
+			<string>37</string>
+			<key>weight</key>
+			<string>485</string>
+			<key>image</key>
+			<string>cb1000r.jpg</string>
+			<key>link</key>
+			<string>http://powersports.honda.com/2012/cb1000r.aspx</string>
+		</dict>
+		<key>CBR1000RR</key>
+		<dict>
+			<key>info</key>
+			<string>There’s big news when it comes to the new 2012 Honda CBR1000RR. The CBR1000RR is already the essential Superbike, offering a perfectly integrated combination of power, handling, and overall balance for both the street and the track. But this year we’ve taken this versatile machine and given it some major upgrades. New suspension, new bodywork, new instrumentation, new wheels—and that’s just the start. All that in addition to its famously powerful 999cc liquid-cooled inline-four-cylinder engine and all-aluminum twin-spar chassis.</string>
+			<key>engine</key>
+			<string>999</string>
+			<key>transmission</key>
+			<string>six speed</string>
+			<key>drive</key>
+			<string>chain</string>
+			<key>fuel capacity</key>
+			<string>4.7</string>
+			<key>mpg</key>
+			<string>41</string>
+			<key>weight</key>
+			<string>441</string>
+			<key>image</key>
+			<string>cbr1000rr.jpg</string>
+			<key>link</key>
+			<string>http://powersports.honda.com/2012/cbr1000rr.aspx</string>
+		</dict>
+		<key>VFR1200F</key>
+		<dict>
+			<key>info</key>
+			<string>Revolutionary? Radical? Honda’s incredible VFR1200F is all that, and much more. The list of innovative technology is endless, and there’s even more this year since the 2012 VFR1200F showcases some significant upgrades, improvements and innovations. The super-compact Unicam® design 1237cc V4 engine is fueled by Honda’s Throttle By Wire system, and this year offers more torque and more range. There’s even a new Traction Control system. Together with Honda’s Combined Braking with ABS, this makes the VFR one of the most feature packed bikes out there.</string>
+			<key>engine</key>
+			<string>1237</string>
+			<key>transmission</key>
+			<string>six speed</string>
+			<key>drive</key>
+			<string>shaft</string>
+			<key>fuel capacity</key>
+			<string>5.0</string>
+			<key>mpg</key>
+			<string>35</string>
+			<key>weight</key>
+			<string>613</string>
+			<key>image</key>
+			<string>vfr1200f.jpg</string>
+			<key>link</key>
+			<string>http://powersports.honda.com/2012/vfr1200f.aspx</string>
+		</dict>
+	</dict>
+	<key>Chopper</key>
+	<dict>
+		<key>Fury</key>
+		<dict>
+			<key>info</key>
+			<string>Honda’s radical Fury is a chopper like no other. Not only is it easily the most distinctive custom we’ve ever built, but it’s comparable to one-off custom-house choppers costing ten times as much—except that it probably works and rides twice as well. Long, lean and mean, stretching nearly six feet from axle to axle, this machine is a real head-turner. And once you settle into the saddle, turn the key and fire up that big 1312cc V-twin, you’ll know this is the bike you’ve been dreaming about.</string>
+			<key>engine</key>
+			<string>1312</string>
+			<key>transmission</key>
+			<string>five speed</string>
+			<key>drive</key>
+			<string>shaft</string>
+			<key>fuel capacity</key>
+			<string>3.4</string>
+			<key>mpg</key>
+			<string>45</string>
+			<key>weight</key>
+			<string>663</string>
+			<key>image</key>
+			<string>fury.jpg</string>
+			<key>link</key>
+			<string>http://powersports.honda.com/2012/fury.aspx</string>
+		</dict>
+	</dict>
+	<key>Cruisers</key>
+	<dict>
+		<key>Rebel</key>
+		<dict>
+			<key>info</key>
+			<string>Whether you’re looking for classic cruiser styling, a fuel-efficient commuter, or flat-out fun, all roads lead to the Rebel. It boasts a 234cc four-stroke engine that’s approachable enough for new riders, yet powerful enough for more experienced motorcyclists. A low seat height that is both comfortable and confidence inspiring. A five-speed transmission that’s pretty much foolproof. And an electric starter that gets you going with the push of a button. Plus, you get the kind of reliability and low maintenance Honda is known for – all at a shockingly low price. No wonder the Rebel has long been one of our best selling bikes.</string>
+			<key>engine</key>
+			<string>745</string>
+			<key>transmission</key>
+			<string>five speed</string>
+			<key>drive</key>
+			<string>shaft</string>
+			<key>fuel capacity</key>
+			<string>3.7</string>
+			<key>mpg</key>
+			<string>56</string>
+			<key>weight</key>
+			<string>536</string>
+			<key>image</key>
+			<string>spirit.jpg</string>
+			<key>link</key>
+			<string>http://powersports.honda.com/2012/rebel.aspx</string>
+		</dict>
+		<key>Shadow Spirit</key>
+		<dict>
+			<key>info</key>
+			<string>The Shadow Phantom has got to be the most unique Shadow we’ve ever made. It’s an utterly stunning head-turner, and one look will tell you why: Blacked-out 745cc V-twin engine and black rims sporting matte silver highlights, bobbed fenders, spoke wheels, and beefy front fork. Then the exhaust note hits you, a deep, throaty pulse rumbling from dual exhausts. It’s hard to resist, we know. And downright impossible once you’ve seen its price tag. And best of all, the Shadow Phantom gets an estimated 56 miles per gallon!</string>
+			<key>engine</key>
+			<string>234</string>
+			<key>transmission</key>
+			<string>five speed</string>
+			<key>drive</key>
+			<string>chain</string>
+			<key>fuel capacity</key>
+			<string>2.6</string>
+			<key>mpg</key>
+			<string>84</string>
+			<key>weight</key>
+			<string>331</string>
+			<key>image</key>
+			<string>rebel.jpg</string>
+			<key>link</key>
+			<string>http://powersports.honda.com/2012/shadow-spirit-750.aspx</string>
+		</dict>
+		<key>Shadow Phantom</key>
+		<dict>
+			<key>info</key>
+			<string>The Shadow Phantom has got to be the most unique Shadow we’ve ever made. It’s an utterly stunning head-turner, and one look will tell you why: Blacked-out 745cc V-twin engine and black rims sporting matte silver highlights, bobbed fenders, spoke wheels, and beefy front fork. Then the exhaust note hits you, a deep, throaty pulse rumbling from dual exhausts. It’s hard to resist, we know. And downright impossible once you’ve seen its price tag. And best of all, the Shadow Phantom gets an estimated 56 miles per gallon!</string>
+			<key>engine</key>
+			<string>745</string>
+			<key>transmission</key>
+			<string>five speed</string>
+			<key>drive</key>
+			<string>shaft</string>
+			<key>fuel capacity</key>
+			<string>3.7</string>
+			<key>mpg</key>
+			<string>56</string>
+			<key>weight</key>
+			<string>549</string>
+			<key>image</key>
+			<string>phantom.jpg</string>
+			<key>link</key>
+			<string>http://powersports.honda.com/2012/shadow-phantom.aspx</string>
+		</dict>
+		<key>Sabre</key>
+		<dict>
+			<key>info</key>
+			<string>How do you classify a bike as sharp as the Honda Sabre? Pro Street dragster or boulevard bad boy—the Sabre offers a heaping dose of both. It’s a sleek, modern-day custom, that’s for sure. Taking a cue from the stripped-down styling of the Fury, it goes on to carve out its own, very unique place in the Honda Custom lineup. Just check out the crisp, clean lines, sporty, minimalist fenders, tall, 21-inch front tire, raked-out fork and low, aggressively set bars. And let’s not forget the brawny 1312cc 52º V-twin engine responsible for putting all this wickedly cool style in motion.</string>
+			<key>engine</key>
+			<string>1312</string>
+			<key>transmission</key>
+			<string>five speed</string>
+			<key>drive</key>
+			<string>shaft</string>
+			<key>fuel capacity</key>
+			<string>4.4</string>
+			<key>mpg</key>
+			<string>46</string>
+			<key>weight</key>
+			<string>664</string>
+			<key>image</key>
+			<string>sabre.jpg</string>
+			<key>link</key>
+			<string>http://powersports.honda.com/2012/sabre.aspx</string>
+		</dict>
+	</dict>
+	<key>Adventure</key>
+	<dict>
+		<key>NC700X</key>
+		<dict>
+			<key>info</key>
+			<string>Honda’s new NC700X is a real breath of fresh air in today’s world of specialized motorcycles, a new concept in streetbikes, and one that puts the FUN in Functional. During the week it’s an awesome commuter. On the weekend it lets you go exploring in the country, or carve up a twisty canyon road. Light, nimble, and with an engine that offers a generous helping of useable torque, it’s all wrapped up in a package that’s big enough for longer rides, but not a handful in tight traffic or in a parking lot. And to sweeten the deal, it’s even available in two versions: one model features a conventional six-speed, manual-clutch transmission, while a second version is available with the latest generation of Honda’s exclusive automatic Dual Clutch Transmission (DCT). Plus, the DCT version comes with Honda’s revolutionary Combined ABS!</string>
+			<key>engine</key>
+			<string>670</string>
+			<key>transmission</key>
+			<string>six speed</string>
+			<key>drive</key>
+			<string>chain</string>
+			<key>fuel capacity</key>
+			<string>3.7</string>
+			<key>mpg</key>
+			<string>64</string>
+			<key>weight</key>
+			<string>472</string>
+			<key>image</key>
+			<string>nc700x.jpg</string>
+			<key>link</key>
+			<string>http://powersports.honda.com/2012/nc700x.aspx</string>
+		</dict>
+	</dict>
+	<key>Sport Touring</key>
+	<dict>
+		<key>NT700V</key>
+		<dict>
+			<key>info</key>
+			<string>Sport-touring bikes have to do double-duty, and do both well. The Honda ST1300 is proof that if you start out with the world’s ultimate touring bike and the world’s best sportbikes, you can create something magical. One part long-distance hauler, one part canyon-carving ace, ST1300 combines Gold Wing-inspired luxury with CBR-derived performance. Its wind-tunnel-honed bodywork and hard saddlebags perfectly complement a powerful V-4 engine, shaft drive, a race-bred chassis, and ABS. The result? A bike that’s equally at home swallowing up miles of blacktop as it is dicing through the twistiest of alpine passes. And all without ever breaking a sweat.</string>
+			<key>engine</key>
+			<string>680</string>
+			<key>transmission</key>
+			<string>five speed</string>
+			<key>drive</key>
+			<string>shaft</string>
+			<key>fuel capacity</key>
+			<string>5.2</string>
+			<key>mpg</key>
+			<string>49</string>
+			<key>weight</key>
+			<string>569</string>
+			<key>image</key>
+			<string>nt700v.jpg</string>
+			<key>link</key>
+			<string>http://powersports.honda.com/2011/nt700v.aspx</string>
+		</dict>
+		<key>ST1300</key>
+		<dict>
+			<key>info</key>
+			<string>Sport-touring bikes have to do double-duty, and do both well. The Honda ST1300 is proof that if you start out with the world’s ultimate touring bike and the world’s best sportbikes, you can create something magical. One part long-distance hauler, one part canyon-carving ace, ST1300 combines Gold Wing-inspired luxury with CBR-derived performance. Its wind-tunnel-honed bodywork and hard saddlebags perfectly complement a powerful V-4 engine, shaft drive, a race-bred chassis, and ABS. The result? A bike that’s equally at home swallowing up miles of blacktop as it is dicing through the twistiest of alpine passes. And all without ever breaking a sweat.</string>
+			<key>engine</key>
+			<string>1261</string>
+			<key>transmission</key>
+			<string>five speed</string>
+			<key>drive</key>
+			<string>shaft</string>
+			<key>fuel capacity</key>
+			<string>7.7</string>
+			<key>mpg</key>
+			<string>35</string>
+			<key>weight</key>
+			<string>730</string>
+			<key>image</key>
+			<string>st1300.jpg</string>
+			<key>link</key>
+			<string>http://powersports.honda.com/2012/st1300.aspx</string>
+		</dict>
+	</dict>
+	<key>Touring</key>
+	<dict>
+		<key>Gold Wing</key>
+		<dict>
+			<key>info</key>
+			<string>There’s big news when it comes to the new 2012 Honda Gold Wing. The world’s best touring motorcycle is made even better. The new bodywork is the first thing you’ll notice, complementing what is the best engine and chassis package the touring world has ever seen. Look a little further and you’ll discover great new improvements to the audio system, the available navigation system, and the Gold Wing’s comfort, too. And there’s new functionality, as well, like integrated iPod® connectivity and the ability to upload trips to the navi system from your home computer.</string>
+			<key>engine</key>
+			<string>1832</string>
+			<key>transmission</key>
+			<string>five speed</string>
+			<key>drive</key>
+			<string>shaft</string>
+			<key>fuel capacity</key>
+			<string>6.6</string>
+			<key>mpg</key>
+			<string>35</string>
+			<key>weight</key>
+			<string>904</string>
+			<key>image</key>
+			<string>goldwing.jpg</string>
+			<key>link</key>
+			<string>http://powersports.honda.com/2012/gold-wing.aspx</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

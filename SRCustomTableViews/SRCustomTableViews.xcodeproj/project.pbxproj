@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		93B8D0A815E1AA7900BD8C12 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93B8D0A715E1AA7900BD8C12 /* UIKit.framework */; };
+		93B8D0AA15E1AA7900BD8C12 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93B8D0A915E1AA7900BD8C12 /* Foundation.framework */; };
+		93B8D0AC15E1AA7900BD8C12 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93B8D0AB15E1AA7900BD8C12 /* CoreGraphics.framework */; };
+		93B8D0B215E1AA7900BD8C12 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 93B8D0B015E1AA7900BD8C12 /* InfoPlist.strings */; };
+		93B8D0B415E1AA7900BD8C12 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B8D0B315E1AA7900BD8C12 /* main.m */; };
+		93B8D0B815E1AA7900BD8C12 /* SRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B8D0B715E1AA7900BD8C12 /* SRAppDelegate.m */; };
+		93B8D0CB15E1BA7700BD8C12 /* Motorcycles.plist in Resources */ = {isa = PBXBuildFile; fileRef = 93B8D0CA15E1BA7700BD8C12 /* Motorcycles.plist */; };
+		93B8D0CF15E1BF5C00BD8C12 /* st1300.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 93B8D0CE15E1BF5C00BD8C12 /* st1300.jpg */; };
+		93B8D0D115E1C0BF00BD8C12 /* nt700v.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 93B8D0D015E1C0BF00BD8C12 /* nt700v.jpg */; };
+		93B8D0D315E1C19A00BD8C12 /* nc700x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 93B8D0D215E1C19A00BD8C12 /* nc700x.jpg */; };
+		93B8D0D515E1C27F00BD8C12 /* sabre.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 93B8D0D415E1C27F00BD8C12 /* sabre.jpg */; };
+		93B8D0D715E1D20B00BD8C12 /* phantom.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 93B8D0D615E1D20B00BD8C12 /* phantom.jpg */; };
+		93B8D0D915E1D2E800BD8C12 /* spirit.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 93B8D0D815E1D2E800BD8C12 /* spirit.jpg */; };
+		93B8D0DB15E1D38200BD8C12 /* rebel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 93B8D0DA15E1D38200BD8C12 /* rebel.jpg */; };
+		93B8D0DD15E1D7C400BD8C12 /* fury.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 93B8D0DC15E1D7C400BD8C12 /* fury.jpg */; };
+		93B8D0DF15E1D87D00BD8C12 /* vfr1200f.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 93B8D0DE15E1D87D00BD8C12 /* vfr1200f.jpg */; };
+		93B8D0E115E1D9F100BD8C12 /* cb1000r.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 93B8D0E015E1D9F100BD8C12 /* cb1000r.jpg */; };
+		93B8D0E315E1DA3300BD8C12 /* cbr1000rr.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 93B8D0E215E1DA3300BD8C12 /* cbr1000rr.jpg */; };
+		93B8D0E515E1DAC700BD8C12 /* cbr600rr.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 93B8D0E415E1DAC700BD8C12 /* cbr600rr.jpg */; };
+		93B8D0E715E1DB7900BD8C12 /* cbr250r.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 93B8D0E615E1DB7900BD8C12 /* cbr250r.jpg */; };
+		93B8D0E915E1DBF500BD8C12 /* goldwing.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 93B8D0E815E1DBF500BD8C12 /* goldwing.jpg */; };
+		93B8D0EC15E1DDCC00BD8C12 /* SRMotorcycle.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B8D0EB15E1DDCC00BD8C12 /* SRMotorcycle.m */; };
+		93B8D0EF15E1E02700BD8C12 /* SRMotorcycleLookup.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B8D0EE15E1E02700BD8C12 /* SRMotorcycleLookup.m */; };
+		93B8D0F115E1EFDC00BD8C12 /* SRMotorcyclesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B8D0F015E1EFDC00BD8C12 /* SRMotorcyclesViewController.m */; };
+		93B8D0F415E1F06000BD8C12 /* SRMotorcyclesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93B8D0F315E1F06000BD8C12 /* SRMotorcyclesViewController.xib */; };
+		93B8D10315E1F75E00BD8C12 /* cb1000r_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 93B8D0F515E1F75900BD8C12 /* cb1000r_thumb.jpg */; };
+		93B8D10415E1F75E00BD8C12 /* cbr250r_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 93B8D0F615E1F75900BD8C12 /* cbr250r_thumb.jpg */; };
+		93B8D10515E1F75E00BD8C12 /* cbr600rr_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 93B8D0F715E1F75A00BD8C12 /* cbr600rr_thumb.jpg */; };
+		93B8D10615E1F75E00BD8C12 /* cbr1000rr_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 93B8D0F815E1F75A00BD8C12 /* cbr1000rr_thumb.jpg */; };
+		93B8D10715E1F75E00BD8C12 /* fury_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 93B8D0F915E1F75A00BD8C12 /* fury_thumb.jpg */; };
+		93B8D10815E1F75E00BD8C12 /* goldwing_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 93B8D0FA15E1F75B00BD8C12 /* goldwing_thumb.jpg */; };
+		93B8D10915E1F75E00BD8C12 /* nc700x_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 93B8D0FB15E1F75B00BD8C12 /* nc700x_thumb.jpg */; };
+		93B8D10A15E1F75E00BD8C12 /* nt700v_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 93B8D0FC15E1F75C00BD8C12 /* nt700v_thumb.jpg */; };
+		93B8D10B15E1F75E00BD8C12 /* phantom_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 93B8D0FD15E1F75C00BD8C12 /* phantom_thumb.jpg */; };
+		93B8D10C15E1F75E00BD8C12 /* rebel_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 93B8D0FE15E1F75C00BD8C12 /* rebel_thumb.jpg */; };
+		93B8D10D15E1F75E00BD8C12 /* sabre_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 93B8D0FF15E1F75D00BD8C12 /* sabre_thumb.jpg */; };
+		93B8D10E15E1F75E00BD8C12 /* spirit_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 93B8D10015E1F75D00BD8C12 /* spirit_thumb.jpg */; };
+		93B8D10F15E1F75E00BD8C12 /* st1300_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 93B8D10115E1F75D00BD8C12 /* st1300_thumb.jpg */; };
+		93B8D11015E1F75E00BD8C12 /* vfr1200f_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 93B8D10215E1F75E00BD8C12 /* vfr1200f_thumb.jpg */; };
+		93B8D11515E2033300BD8C12 /* SRMotorcycleDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B8D11315E2033200BD8C12 /* SRMotorcycleDetailViewController.m */; };
+		93B8D11615E2033300BD8C12 /* SRMotorcycleDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93B8D11415E2033300BD8C12 /* SRMotorcycleDetailViewController.xib */; };
+		93B8D11D15E5B2AC00BD8C12 /* SRInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B8D11C15E5B2AC00BD8C12 /* SRInfoCell.m */; };
+		93B8D12015E5C62E00BD8C12 /* SRSpecificationsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B8D11F15E5C62E00BD8C12 /* SRSpecificationsCell.m */; };
+		93B8D12515E5CBE200BD8C12 /* darkbkg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 93B8D12415E5CBE100BD8C12 /* darkbkg.jpg */; };
+		93B8D12815E6336500BD8C12 /* SRMotorcycleImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B8D12715E6336500BD8C12 /* SRMotorcycleImageView.m */; };
+		93B8D12A15E63ED600BD8C12 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 93B8D12915E63ED600BD8C12 /* icon.png */; };
+		93B8D12C15E63EDA00BD8C12 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 93B8D12B15E63EDA00BD8C12 /* icon@2x.png */; };
+		93B8D13515E8DABC00BD8C12 /* SRWhiteDetailButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B8D13415E8DABC00BD8C12 /* SRWhiteDetailButton.m */; };
+		93B8D13915E8EBC400BD8C12 /* whitedetailbtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 93B8D13815E8EBC400BD8C12 /* whitedetailbtn.png */; };
+		93B8D13C15E92F0900BD8C12 /* SRMotorcycleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B8D13B15E92F0900BD8C12 /* SRMotorcycleCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		93B8D0A315E1AA7900BD8C12 /* SRCustomTableViews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SRCustomTableViews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		93B8D0A715E1AA7900BD8C12 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		93B8D0A915E1AA7900BD8C12 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		93B8D0AB15E1AA7900BD8C12 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		93B8D0AF15E1AA7900BD8C12 /* SRCustomTableViews-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SRCustomTableViews-Info.plist"; sourceTree = "<group>"; };
+		93B8D0B115E1AA7900BD8C12 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		93B8D0B315E1AA7900BD8C12 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		93B8D0B515E1AA7900BD8C12 /* SRCustomTableViews-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SRCustomTableViews-Prefix.pch"; sourceTree = "<group>"; };
+		93B8D0B615E1AA7900BD8C12 /* SRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SRAppDelegate.h; sourceTree = "<group>"; };
+		93B8D0B715E1AA7900BD8C12 /* SRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SRAppDelegate.m; sourceTree = "<group>"; };
+		93B8D0CA15E1BA7700BD8C12 /* Motorcycles.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Motorcycles.plist; sourceTree = "<group>"; };
+		93B8D0CE15E1BF5C00BD8C12 /* st1300.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = st1300.jpg; sourceTree = "<group>"; };
+		93B8D0D015E1C0BF00BD8C12 /* nt700v.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nt700v.jpg; sourceTree = "<group>"; };
+		93B8D0D215E1C19A00BD8C12 /* nc700x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nc700x.jpg; sourceTree = "<group>"; };
+		93B8D0D415E1C27F00BD8C12 /* sabre.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sabre.jpg; sourceTree = "<group>"; };
+		93B8D0D615E1D20B00BD8C12 /* phantom.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = phantom.jpg; sourceTree = "<group>"; };
+		93B8D0D815E1D2E800BD8C12 /* spirit.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = spirit.jpg; sourceTree = "<group>"; };
+		93B8D0DA15E1D38200BD8C12 /* rebel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rebel.jpg; sourceTree = "<group>"; };
+		93B8D0DC15E1D7C400BD8C12 /* fury.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fury.jpg; sourceTree = "<group>"; };
+		93B8D0DE15E1D87D00BD8C12 /* vfr1200f.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vfr1200f.jpg; sourceTree = "<group>"; };
+		93B8D0E015E1D9F100BD8C12 /* cb1000r.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cb1000r.jpg; sourceTree = "<group>"; };
+		93B8D0E215E1DA3300BD8C12 /* cbr1000rr.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cbr1000rr.jpg; sourceTree = "<group>"; };
+		93B8D0E415E1DAC700BD8C12 /* cbr600rr.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cbr600rr.jpg; sourceTree = "<group>"; };
+		93B8D0E615E1DB7900BD8C12 /* cbr250r.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cbr250r.jpg; sourceTree = "<group>"; };
+		93B8D0E815E1DBF500BD8C12 /* goldwing.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = goldwing.jpg; sourceTree = "<group>"; };
+		93B8D0EA15E1DDCC00BD8C12 /* SRMotorcycle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRMotorcycle.h; sourceTree = "<group>"; };
+		93B8D0EB15E1DDCC00BD8C12 /* SRMotorcycle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRMotorcycle.m; sourceTree = "<group>"; };
+		93B8D0ED15E1E02700BD8C12 /* SRMotorcycleLookup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRMotorcycleLookup.h; sourceTree = "<group>"; };
+		93B8D0EE15E1E02700BD8C12 /* SRMotorcycleLookup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRMotorcycleLookup.m; sourceTree = "<group>"; };
+		93B8D0F015E1EFDC00BD8C12 /* SRMotorcyclesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRMotorcyclesViewController.m; sourceTree = "<group>"; };
+		93B8D0F215E1EFFC00BD8C12 /* SRMotorcyclesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SRMotorcyclesViewController.h; sourceTree = "<group>"; };
+		93B8D0F315E1F06000BD8C12 /* SRMotorcyclesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SRMotorcyclesViewController.xib; sourceTree = "<group>"; };
+		93B8D0F515E1F75900BD8C12 /* cb1000r_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cb1000r_thumb.jpg; sourceTree = "<group>"; };
+		93B8D0F615E1F75900BD8C12 /* cbr250r_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cbr250r_thumb.jpg; sourceTree = "<group>"; };
+		93B8D0F715E1F75A00BD8C12 /* cbr600rr_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cbr600rr_thumb.jpg; sourceTree = "<group>"; };
+		93B8D0F815E1F75A00BD8C12 /* cbr1000rr_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cbr1000rr_thumb.jpg; sourceTree = "<group>"; };
+		93B8D0F915E1F75A00BD8C12 /* fury_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fury_thumb.jpg; sourceTree = "<group>"; };
+		93B8D0FA15E1F75B00BD8C12 /* goldwing_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = goldwing_thumb.jpg; sourceTree = "<group>"; };
+		93B8D0FB15E1F75B00BD8C12 /* nc700x_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nc700x_thumb.jpg; sourceTree = "<group>"; };
+		93B8D0FC15E1F75C00BD8C12 /* nt700v_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nt700v_thumb.jpg; sourceTree = "<group>"; };
+		93B8D0FD15E1F75C00BD8C12 /* phantom_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = phantom_thumb.jpg; sourceTree = "<group>"; };
+		93B8D0FE15E1F75C00BD8C12 /* rebel_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rebel_thumb.jpg; sourceTree = "<group>"; };
+		93B8D0FF15E1F75D00BD8C12 /* sabre_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sabre_thumb.jpg; sourceTree = "<group>"; };
+		93B8D10015E1F75D00BD8C12 /* spirit_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = spirit_thumb.jpg; sourceTree = "<group>"; };
+		93B8D10115E1F75D00BD8C12 /* st1300_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = st1300_thumb.jpg; sourceTree = "<group>"; };
+		93B8D10215E1F75E00BD8C12 /* vfr1200f_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vfr1200f_thumb.jpg; sourceTree = "<group>"; };
+		93B8D11215E2033200BD8C12 /* SRMotorcycleDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRMotorcycleDetailViewController.h; sourceTree = "<group>"; };
+		93B8D11315E2033200BD8C12 /* SRMotorcycleDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRMotorcycleDetailViewController.m; sourceTree = "<group>"; };
+		93B8D11415E2033300BD8C12 /* SRMotorcycleDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SRMotorcycleDetailViewController.xib; sourceTree = "<group>"; };
+		93B8D11B15E5B2AC00BD8C12 /* SRInfoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRInfoCell.h; sourceTree = "<group>"; };
+		93B8D11C15E5B2AC00BD8C12 /* SRInfoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRInfoCell.m; sourceTree = "<group>"; };
+		93B8D11E15E5C62E00BD8C12 /* SRSpecificationsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRSpecificationsCell.h; sourceTree = "<group>"; };
+		93B8D11F15E5C62E00BD8C12 /* SRSpecificationsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRSpecificationsCell.m; sourceTree = "<group>"; };
+		93B8D12415E5CBE100BD8C12 /* darkbkg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = darkbkg.jpg; sourceTree = "<group>"; };
+		93B8D12615E6336500BD8C12 /* SRMotorcycleImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRMotorcycleImageView.h; sourceTree = "<group>"; };
+		93B8D12715E6336500BD8C12 /* SRMotorcycleImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRMotorcycleImageView.m; sourceTree = "<group>"; };
+		93B8D12915E63ED600BD8C12 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		93B8D12B15E63EDA00BD8C12 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		93B8D13315E8DABC00BD8C12 /* SRWhiteDetailButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRWhiteDetailButton.h; sourceTree = "<group>"; };
+		93B8D13415E8DABC00BD8C12 /* SRWhiteDetailButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRWhiteDetailButton.m; sourceTree = "<group>"; };
+		93B8D13815E8EBC400BD8C12 /* whitedetailbtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whitedetailbtn.png; sourceTree = "<group>"; };
+		93B8D13A15E92F0900BD8C12 /* SRMotorcycleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRMotorcycleCell.h; sourceTree = "<group>"; };
+		93B8D13B15E92F0900BD8C12 /* SRMotorcycleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRMotorcycleCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93B8D0A015E1AA7900BD8C12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93B8D0A815E1AA7900BD8C12 /* UIKit.framework in Frameworks */,
+				93B8D0AA15E1AA7900BD8C12 /* Foundation.framework in Frameworks */,
+				93B8D0AC15E1AA7900BD8C12 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		93B8D09815E1AA7800BD8C12 = {
+			isa = PBXGroup;
+			children = (
+				93B8D12B15E63EDA00BD8C12 /* icon@2x.png */,
+				93B8D12915E63ED600BD8C12 /* icon.png */,
+				93B8D0AD15E1AA7900BD8C12 /* SRCustomTableViews */,
+				93B8D0A615E1AA7900BD8C12 /* Frameworks */,
+				93B8D0A415E1AA7900BD8C12 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		93B8D0A415E1AA7900BD8C12 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93B8D0A315E1AA7900BD8C12 /* SRCustomTableViews.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93B8D0A615E1AA7900BD8C12 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93B8D0A715E1AA7900BD8C12 /* UIKit.framework */,
+				93B8D0A915E1AA7900BD8C12 /* Foundation.framework */,
+				93B8D0AB15E1AA7900BD8C12 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		93B8D0AD15E1AA7900BD8C12 /* SRCustomTableViews */ = {
+			isa = PBXGroup;
+			children = (
+				93B8D0B615E1AA7900BD8C12 /* SRAppDelegate.h */,
+				93B8D0B715E1AA7900BD8C12 /* SRAppDelegate.m */,
+				93B8D0C415E1AA9000BD8C12 /* Models */,
+				93B8D0C515E1AA9900BD8C12 /* Views */,
+				93B8D0C615E1AA9F00BD8C12 /* View Controllers */,
+				93B8D0C815E1BA2B00BD8C12 /* Resources */,
+				93B8D0AE15E1AA7900BD8C12 /* Supporting Files */,
+			);
+			path = SRCustomTableViews;
+			sourceTree = "<group>";
+		};
+		93B8D0AE15E1AA7900BD8C12 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				93B8D0AF15E1AA7900BD8C12 /* SRCustomTableViews-Info.plist */,
+				93B8D0B015E1AA7900BD8C12 /* InfoPlist.strings */,
+				93B8D0B315E1AA7900BD8C12 /* main.m */,
+				93B8D0B515E1AA7900BD8C12 /* SRCustomTableViews-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		93B8D0C415E1AA9000BD8C12 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				93B8D0EA15E1DDCC00BD8C12 /* SRMotorcycle.h */,
+				93B8D0EB15E1DDCC00BD8C12 /* SRMotorcycle.m */,
+				93B8D0ED15E1E02700BD8C12 /* SRMotorcycleLookup.h */,
+				93B8D0EE15E1E02700BD8C12 /* SRMotorcycleLookup.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		93B8D0C515E1AA9900BD8C12 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				93B8D11B15E5B2AC00BD8C12 /* SRInfoCell.h */,
+				93B8D11C15E5B2AC00BD8C12 /* SRInfoCell.m */,
+				93B8D12615E6336500BD8C12 /* SRMotorcycleImageView.h */,
+				93B8D12715E6336500BD8C12 /* SRMotorcycleImageView.m */,
+				93B8D13315E8DABC00BD8C12 /* SRWhiteDetailButton.h */,
+				93B8D13415E8DABC00BD8C12 /* SRWhiteDetailButton.m */,
+				93B8D11E15E5C62E00BD8C12 /* SRSpecificationsCell.h */,
+				93B8D11F15E5C62E00BD8C12 /* SRSpecificationsCell.m */,
+				93B8D13A15E92F0900BD8C12 /* SRMotorcycleCell.h */,
+				93B8D13B15E92F0900BD8C12 /* SRMotorcycleCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		93B8D0C615E1AA9F00BD8C12 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				93B8D0F215E1EFFC00BD8C12 /* SRMotorcyclesViewController.h */,
+				93B8D0F015E1EFDC00BD8C12 /* SRMotorcyclesViewController.m */,
+				93B8D0F315E1F06000BD8C12 /* SRMotorcyclesViewController.xib */,
+				93B8D11215E2033200BD8C12 /* SRMotorcycleDetailViewController.h */,
+				93B8D11315E2033200BD8C12 /* SRMotorcycleDetailViewController.m */,
+				93B8D11415E2033300BD8C12 /* SRMotorcycleDetailViewController.xib */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		93B8D0C815E1BA2B00BD8C12 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				93B8D0CA15E1BA7700BD8C12 /* Motorcycles.plist */,
+				93B8D0C915E1BA4900BD8C12 /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		93B8D0C915E1BA4900BD8C12 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				93B8D13815E8EBC400BD8C12 /* whitedetailbtn.png */,
+				93B8D12415E5CBE100BD8C12 /* darkbkg.jpg */,
+				93B8D0E015E1D9F100BD8C12 /* cb1000r.jpg */,
+				93B8D0F515E1F75900BD8C12 /* cb1000r_thumb.jpg */,
+				93B8D0E615E1DB7900BD8C12 /* cbr250r.jpg */,
+				93B8D0F615E1F75900BD8C12 /* cbr250r_thumb.jpg */,
+				93B8D0E415E1DAC700BD8C12 /* cbr600rr.jpg */,
+				93B8D0F715E1F75A00BD8C12 /* cbr600rr_thumb.jpg */,
+				93B8D0E215E1DA3300BD8C12 /* cbr1000rr.jpg */,
+				93B8D0F815E1F75A00BD8C12 /* cbr1000rr_thumb.jpg */,
+				93B8D0DC15E1D7C400BD8C12 /* fury.jpg */,
+				93B8D0F915E1F75A00BD8C12 /* fury_thumb.jpg */,
+				93B8D0E815E1DBF500BD8C12 /* goldwing.jpg */,
+				93B8D0FA15E1F75B00BD8C12 /* goldwing_thumb.jpg */,
+				93B8D0D215E1C19A00BD8C12 /* nc700x.jpg */,
+				93B8D0FB15E1F75B00BD8C12 /* nc700x_thumb.jpg */,
+				93B8D0D015E1C0BF00BD8C12 /* nt700v.jpg */,
+				93B8D0FC15E1F75C00BD8C12 /* nt700v_thumb.jpg */,
+				93B8D0D615E1D20B00BD8C12 /* phantom.jpg */,
+				93B8D0FD15E1F75C00BD8C12 /* phantom_thumb.jpg */,
+				93B8D0DA15E1D38200BD8C12 /* rebel.jpg */,
+				93B8D0FE15E1F75C00BD8C12 /* rebel_thumb.jpg */,
+				93B8D0D415E1C27F00BD8C12 /* sabre.jpg */,
+				93B8D0FF15E1F75D00BD8C12 /* sabre_thumb.jpg */,
+				93B8D0D815E1D2E800BD8C12 /* spirit.jpg */,
+				93B8D10015E1F75D00BD8C12 /* spirit_thumb.jpg */,
+				93B8D0CE15E1BF5C00BD8C12 /* st1300.jpg */,
+				93B8D10115E1F75D00BD8C12 /* st1300_thumb.jpg */,
+				93B8D0DE15E1D87D00BD8C12 /* vfr1200f.jpg */,
+				93B8D10215E1F75E00BD8C12 /* vfr1200f_thumb.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93B8D0A215E1AA7900BD8C12 /* SRCustomTableViews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93B8D0C115E1AA7900BD8C12 /* Build configuration list for PBXNativeTarget "SRCustomTableViews" */;
+			buildPhases = (
+				93B8D09F15E1AA7900BD8C12 /* Sources */,
+				93B8D0A015E1AA7900BD8C12 /* Frameworks */,
+				93B8D0A115E1AA7900BD8C12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SRCustomTableViews;
+			productName = SRCustomTableViews;
+			productReference = 93B8D0A315E1AA7900BD8C12 /* SRCustomTableViews.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93B8D09A15E1AA7800BD8C12 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SR;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "sailon ransom";
+			};
+			buildConfigurationList = 93B8D09D15E1AA7800BD8C12 /* Build configuration list for PBXProject "SRCustomTableViews" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 93B8D09815E1AA7800BD8C12;
+			productRefGroup = 93B8D0A415E1AA7900BD8C12 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93B8D0A215E1AA7900BD8C12 /* SRCustomTableViews */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93B8D0A115E1AA7900BD8C12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93B8D0B215E1AA7900BD8C12 /* InfoPlist.strings in Resources */,
+				93B8D0CB15E1BA7700BD8C12 /* Motorcycles.plist in Resources */,
+				93B8D0CF15E1BF5C00BD8C12 /* st1300.jpg in Resources */,
+				93B8D0D115E1C0BF00BD8C12 /* nt700v.jpg in Resources */,
+				93B8D0D315E1C19A00BD8C12 /* nc700x.jpg in Resources */,
+				93B8D0D515E1C27F00BD8C12 /* sabre.jpg in Resources */,
+				93B8D0D715E1D20B00BD8C12 /* phantom.jpg in Resources */,
+				93B8D0D915E1D2E800BD8C12 /* spirit.jpg in Resources */,
+				93B8D0DB15E1D38200BD8C12 /* rebel.jpg in Resources */,
+				93B8D0DD15E1D7C400BD8C12 /* fury.jpg in Resources */,
+				93B8D0DF15E1D87D00BD8C12 /* vfr1200f.jpg in Resources */,
+				93B8D0E115E1D9F100BD8C12 /* cb1000r.jpg in Resources */,
+				93B8D0E315E1DA3300BD8C12 /* cbr1000rr.jpg in Resources */,
+				93B8D0E515E1DAC700BD8C12 /* cbr600rr.jpg in Resources */,
+				93B8D0E715E1DB7900BD8C12 /* cbr250r.jpg in Resources */,
+				93B8D0E915E1DBF500BD8C12 /* goldwing.jpg in Resources */,
+				93B8D0F415E1F06000BD8C12 /* SRMotorcyclesViewController.xib in Resources */,
+				93B8D10315E1F75E00BD8C12 /* cb1000r_thumb.jpg in Resources */,
+				93B8D10415E1F75E00BD8C12 /* cbr250r_thumb.jpg in Resources */,
+				93B8D10515E1F75E00BD8C12 /* cbr600rr_thumb.jpg in Resources */,
+				93B8D10615E1F75E00BD8C12 /* cbr1000rr_thumb.jpg in Resources */,
+				93B8D10715E1F75E00BD8C12 /* fury_thumb.jpg in Resources */,
+				93B8D10815E1F75E00BD8C12 /* goldwing_thumb.jpg in Resources */,
+				93B8D10915E1F75E00BD8C12 /* nc700x_thumb.jpg in Resources */,
+				93B8D10A15E1F75E00BD8C12 /* nt700v_thumb.jpg in Resources */,
+				93B8D10B15E1F75E00BD8C12 /* phantom_thumb.jpg in Resources */,
+				93B8D10C15E1F75E00BD8C12 /* rebel_thumb.jpg in Resources */,
+				93B8D10D15E1F75E00BD8C12 /* sabre_thumb.jpg in Resources */,
+				93B8D10E15E1F75E00BD8C12 /* spirit_thumb.jpg in Resources */,
+				93B8D10F15E1F75E00BD8C12 /* st1300_thumb.jpg in Resources */,
+				93B8D11015E1F75E00BD8C12 /* vfr1200f_thumb.jpg in Resources */,
+				93B8D11615E2033300BD8C12 /* SRMotorcycleDetailViewController.xib in Resources */,
+				93B8D12515E5CBE200BD8C12 /* darkbkg.jpg in Resources */,
+				93B8D12A15E63ED600BD8C12 /* icon.png in Resources */,
+				93B8D12C15E63EDA00BD8C12 /* icon@2x.png in Resources */,
+				93B8D13915E8EBC400BD8C12 /* whitedetailbtn.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93B8D09F15E1AA7900BD8C12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93B8D0B415E1AA7900BD8C12 /* main.m in Sources */,
+				93B8D0B815E1AA7900BD8C12 /* SRAppDelegate.m in Sources */,
+				93B8D0EC15E1DDCC00BD8C12 /* SRMotorcycle.m in Sources */,
+				93B8D0EF15E1E02700BD8C12 /* SRMotorcycleLookup.m in Sources */,
+				93B8D0F115E1EFDC00BD8C12 /* SRMotorcyclesViewController.m in Sources */,
+				93B8D11515E2033300BD8C12 /* SRMotorcycleDetailViewController.m in Sources */,
+				93B8D11D15E5B2AC00BD8C12 /* SRInfoCell.m in Sources */,
+				93B8D12015E5C62E00BD8C12 /* SRSpecificationsCell.m in Sources */,
+				93B8D12815E6336500BD8C12 /* SRMotorcycleImageView.m in Sources */,
+				93B8D13515E8DABC00BD8C12 /* SRWhiteDetailButton.m in Sources */,
+				93B8D13C15E92F0900BD8C12 /* SRMotorcycleCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		93B8D0B015E1AA7900BD8C12 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93B8D0B115E1AA7900BD8C12 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		93B8D0BF15E1AA7900BD8C12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		93B8D0C015E1AA7900BD8C12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		93B8D0C215E1AA7900BD8C12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SRCustomTableViews/SRCustomTableViews-Prefix.pch";
+				INFOPLIST_FILE = "SRCustomTableViews/SRCustomTableViews-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		93B8D0C315E1AA7900BD8C12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SRCustomTableViews/SRCustomTableViews-Prefix.pch";
+				INFOPLIST_FILE = "SRCustomTableViews/SRCustomTableViews-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93B8D09D15E1AA7800BD8C12 /* Build configuration list for PBXProject "SRCustomTableViews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93B8D0BF15E1AA7900BD8C12 /* Debug */,
+				93B8D0C015E1AA7900BD8C12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93B8D0C115E1AA7900BD8C12 /* Build configuration list for PBXNativeTarget "SRCustomTableViews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93B8D0C215E1AA7900BD8C12 /* Debug */,
+				93B8D0C315E1AA7900BD8C12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 93B8D09A15E1AA7800BD8C12 /* Project object */;
+}
